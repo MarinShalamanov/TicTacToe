@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    int player = 0; // 0 - X, 1 - O
+
     int taleIds[][] = {
             {R.id.tale11, R.id.tale12, R.id.tale13},
             {R.id.tale21, R.id.tale22, R.id.tale23},
@@ -32,7 +34,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         ImageView tale = (ImageView)v;
-        tale.setImageDrawable(getResources().getDrawable(R.drawable.x));
+        int id;
+        if(player == 0) {
+            id = R.drawable.x;
+        } else {
+            id = R.drawable.o;
+        }
+        tale.setImageDrawable(getResources().getDrawable(id));
+
+        if(player == 0) {
+            player = 1;
+        } else {
+            player = 0;
+        }
     }
 
     @Override
