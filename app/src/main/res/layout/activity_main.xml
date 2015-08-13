@@ -47,21 +47,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale11"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale12"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale13"/>
         </LinearLayout>
 
@@ -78,21 +78,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale21"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale22"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale23"/>
         </LinearLayout>
 
@@ -109,24 +109,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale31"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale32"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"
+                android:src="@drawable/x"
                 android:id="@+id/tale33"/>
         </LinearLayout>
 
     </LinearLayout>
-    
+
 </RelativeLayout>
