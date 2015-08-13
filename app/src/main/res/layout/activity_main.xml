@@ -47,19 +47,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X"/>
+                android:src="@drawable/X"
+                android:id="@+id/tale11"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale12"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale13"/>
         </LinearLayout>
 
 
@@ -75,19 +78,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale21"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale22"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale23"/>
         </LinearLayout>
 
 
@@ -103,67 +109,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale31"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale32"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/X" />
+                android:src="@drawable/X"
+                android:id="@+id/tale33"/>
         </LinearLayout>
 
     </LinearLayout>
-
-    <!--
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:columnCount="3"
-        android:layout_marginRight="5dp"
-        android:rowCount="3"
-        android:layout_alignBottom="@id/background"
-        android:layout_alignTop="@id/background">
-
-
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/X"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/X"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/X"/>
-
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/X"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/X"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/X"/>
-
-
-
-    </GridLayout> -->
+    
 </RelativeLayout>
