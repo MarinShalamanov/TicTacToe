@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        init();
+    }
+
+    void init() {
         for(int i = 0; i < 3; i++) {
             for(int j = 0; j < 3; j++) {
                 ImageView tale = (ImageView)findViewById(taleIds[i][j]);
@@ -47,6 +51,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else {
             player = 0;
         }
+    }
+
+    public void restart(View v) {
+        init();
     }
 
     @Override
